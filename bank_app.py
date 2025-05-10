@@ -63,6 +63,7 @@ class Ui_Bank_App(object):
         font = QtGui.QFont()
         font.setPointSize(14)
         self.Pin_Input.setFont(font)
+        self.Pin_Input.setEchoMode(QtWidgets.QLineEdit.EchoMode.Password)
         self.Pin_Input.setText("")
         self.Pin_Input.setObjectName("Pin_Input")
         self.Login_Button = QtWidgets.QPushButton(parent=self.centralwidget)
